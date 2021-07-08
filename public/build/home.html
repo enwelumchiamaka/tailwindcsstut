@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>student</title>
+</head>
+<body class="text-gray-600">
+
+<div class="grid md:grid-cols-3"><!--content wrapper-->
+    <div class="md:col-span-1">
+        <nav>
+            <div>
+                <h1 class="font-bold uppercase p-4 border-b border-gray-100 text">
+                     <a href="#" class="text-green-500 sm:text-red-500 "> Ninja foods</a> 
+                </h1>
+            </div>
+            <ul>
+                <li class="text-gray-700 font-bold">
+                    <a href="#"> 
+                        <span>Home</span>
+                    </a>  
+                </li>
+                <li>
+                    <a href="#"> 
+                        <span>About</span>
+                    </a>  
+                </li>
+                <li>
+                    <a href="#"> 
+                        <span>Contact</span>
+                    </a>  
+                </li>
+            </ul>
+        </nav>
+    </div><!-- end nav -->
+
+    <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+        <div class="flex justify-center md:justify-end">
+            <a href="#" class="btn text-primary border-primary md:border-2 ">log in</a> 
+            <a href="#" class="btn text-primary ml-2 border-primary md:border-2 ">Sign up</a> 
+        </div>
+
+        <header>
+            <h2 class="text-gray-700 text-6xl font-semibold">Receipes</h2>
+            <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        </header>
+
+        <div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Lastest Receipes</h4>
+
+           <div class="mt-8 grid lg:grid-cols-3 gap-10">
+               <!-- cards goes here -->
+               <div class="card">
+                   <img src="image/saled.jpg" alt="saled" class="w-full h-32 sm:h-48 object-cover">
+                   <div class="m-4">
+                       <span class="font-bold">Vegetable salad with tomatoes</span>
+                       <span class="block text-gray-500 text-sm">Recipe by victor</span>
+                   </div>
+                   <div class="goodboy">
+                       <svg class="w-5 inline-block" fill="none" stroke-linecap="round" 
+                       stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 
+                       24"><path d="M12 8v413 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                       <span>25 mins</span>
+                   </div>
+               </div>
+           
+                   <!--second item-->
+                <div class="card">
+                    <img src="image/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                       <span class="font-bold">Stew with goat meta</span>
+                       <span class="block text-gray-500 text-sm">Recipe by juliet</span>
+                    </div>
+                    <div class="goodboy">
+                       <span>25 mins</span>
+                    </div>
+               </div>
+
+                    <!--third item-->
+                <div class="card">
+                    <img src="image/okra soup.jpg" alt="okro" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Okro soup with poumo</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Amaka</span>
+                    </div>
+                    <div class="goodboy">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+           </div>
+
+           <h4 class="font-bold mt-12 pb-2 border-b border-gray-200"> Most Popular Receipes</h4>
+
+           <div class="mt-8">
+               <!-- cards goes here-->
+           </div>
+
+           <div  class="flex justify-center">
+               <div class="bg-secondary-100 text-secondary-200  btn">Load more</div>
+           </div>
+        </div>
+
+
+
+    </main>
+</div>
+
+</body>
+</html>
